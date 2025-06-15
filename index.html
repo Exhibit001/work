@@ -3,36 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Exhibit001 Work</title>
+  <title>Garment Work | Exhibit001</title>
   <link rel="canonical" href="https://exhibit001.work/" />
-  <meta name="description" content="Explore the studio and raw process work behind Exhibit001's handmade designs." />
-  <meta name="keywords" content="Exhibit001 work, fashion design studio, behind the scenes, raw process" />
+
+  <!-- ✅ SEO Meta -->
+  <meta name="description" content="Dive into the construction process behind Exhibit001 garments — from cutting patterns to final stitches." />
+  <meta name="keywords" content="Exhibit001 work, garment construction, sewing footage, handmade clothing, fashion labor, process shots, NYC designer" />
   <meta name="author" content="Exhibit001" />
-  <meta property="og:title" content="Exhibit001 — Work In Progress" />
-  <meta property="og:description" content="See the design grind behind Exhibit001’s handmade archive." />
+
+  <!-- ✅ Open Graph -->
+  <meta property="og:title" content="Garment Work | Exhibit001" />
+  <meta property="og:description" content="Explore the physical process behind every Exhibit001 piece. Built by hand, made to last." />
   <meta property="og:image" content="https://exhibit001.com/cover.jpg" />
   <meta property="og:url" content="https://exhibit001.work" />
   <meta property="og:type" content="website" />
+
+  <!-- ✅ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Exhibit001 Garment Work",
+    "url": "https://exhibit001.work",
+    "description": "Construction and behind-the-scenes garment making from Exhibit001. Real work, real craftsmanship.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Exhibit001"
+    }
+  }
+  </script>
+
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
   <style>
-    html, body {
+    body {
+      margin: 0;
       background: black;
       color: white;
-      font-family: 'Press Start 2P', monospace;
+      font-family: 'Press Start 2P', cursive;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      height: 100vh;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
-      padding: 20px;
-      margin: 0;
+      padding: 24px;
     }
+
     h1 {
       font-size: 18px;
+      margin-bottom: 30px;
+      text-shadow: 0 0 3px #0ff;
+    }
+
+    .work-preview {
+      border: 3px dashed white;
+      padding: 32px;
+      max-width: 520px;
+      width: 100%;
+    }
+
+    .work-preview p {
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .placeholder-box {
+      margin-top: 20px;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #111;
+      border: 2px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #aaa;
+      font-size: 10px;
+    }
+
+    @media (min-width: 600px) {
+      h1 { font-size: 26px; }
+      .work-preview p { font-size: 14px; }
+      .placeholder-box { font-size: 14px; }
     }
   </style>
 </head>
 <body>
-  <h1>🎨 WORK IN PROGRESS...</h1>
+  <h1>🛠️ Garment Work Coming Soon</h1>
+  <div class="work-preview">
+    <p>Watch the process — the cutting, sewing, and hand-building of Exhibit001’s fashion archive.</p>
+    <div class="placeholder-box">[ WORK VIDEO / IMAGE SLOT ]</div>
+  </div>
 </body>
 </html>
